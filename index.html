@@ -3,10 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>HustlinKad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-8 py-4 bg-white shadow">
+        <div class="text-2xl font-bold tracking-tight">HustlinKad</div>
+        <ul class="flex space-x-8 text-lg font-medium">
+            <li><a href="#" class="border-b-2 border-black pb-1">Home</a></li>
+            <li><a href="#shop" class="hover:border-b-2 hover:border-black pb-1">Shop</a></li>
+            <li><a href="#about" class="hover:border-b-2 hover:border-black pb-1">About</a></li>
+            <li><a href="#contact" class="hover:border-b-2 hover:border-black pb-1">Contact</a></li>
+        </ul>
+        <div class="flex items-center space-x-4">
+            <button class="bg-gray-200 px-4 py-1 rounded-full shadow-inner text-sm font-semibold">Login</button>
+            <div class="relative">
+                <button class="flex items-center bg-white px-4 py-2 rounded shadow text-lg font-semibold">Shop <span class="ml-2">→</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="mx-6 mt-6 rounded-2xl bg-gradient-to-br from-gray-200 to-gray-400 shadow-lg flex flex-col items-center justify-center p-8">
+        <div class="flex flex-col md:flex-row items-center justify-between w-full">
+            <h1 class="text-6xl md:text-7xl font-black tracking-tight text-gray-900">Hustlin</h1>
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=300&q=80" alt="Model" class="w-64 h-80 object-cover rounded-xl shadow-lg mx-8 my-4 md:my-0" />
+            <h1 class="text-6xl md:text-7xl font-black tracking-tight text-gray-900">Kad</h1>
+        </div>
+    </section>
+
+    <!-- Fresh Haul Section -->
+    <section id="shop" class="py-12 bg-gray-200">
+        <h2 class="text-3xl font-bold text-center mb-8">Fresh Haul</h2>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <!-- Product Card -->
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,1" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,2" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,3" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,4" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,5" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,6" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,7" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+                <img src="https://source.unsplash.com/random/200x240?clothes,8" alt="Product" class="w-40 h-48 object-cover rounded mb-4" />
+                <div class="text-xs text-gray-500 mb-1">NIKE UTILITY FLEECE JACKET</div>
+                <div class="text-xs text-gray-400 mb-2">EXCLUSIVE | SIZE: L | PRELOVED</div>
+                <div class="flex justify-between w-full text-xs">
+                    <span class="font-bold">₱ 13,000</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded">5 items</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 flex flex-col items-center">
+        <h2 class="text-3xl font-bold mb-6">About me</h2>
+        <div class="bg-gradient-to-br from-gray-200 to-gray-400 rounded-xl shadow-lg p-8 max-w-xl text-center text-xl font-semibold">
+            Providing quality clothes, carefully chosen to keep you looking sharp and confident
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="flex flex-wrap justify-center items-center gap-8 py-8 bg-white">
+        <img src="https://source.unsplash.com/random/160x200?jacket,1" alt="Featured" class="w-40 h-48 object-cover rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/160x200?jacket,2" alt="Featured" class="w-40 h-48 object-cover rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/160x200?jacket,3" alt="Featured" class="w-40 h-48 object-cover rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/160x200?jacket,4" alt="Featured" class="w-40 h-48 object-cover rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/160x200?jacket,5" alt="Featured" class="w-40 h-48 object-cover rounded-xl shadow" />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-gray-200 flex flex-col items-center">
+        <h2 class="text-3xl font-bold mb-4">Let's Talk</h2>
+        <div class="mb-2 text-sm font-semibold">Social Media</div>
+        <div class="flex space-x-8 items-center">
+            <a href="#" class="flex items-center space-x-2 text-gray-700 hover:text-blue-600">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.6 0 0 .6 0 1.326v21.348C0 23.4.6 24 1.326 24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.4 24 24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0"></path></svg>
+                <span>facebook.com/HustlinKad</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 text-gray-700 hover:text-red-600">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M21.35 11.1c0-5.05-4.1-9.15-9.15-9.15s-9.15 4.1-9.15 9.15c0 4.55 3.3 8.3 7.65 9.05v-6.4h-2.3v-2.65h2.3v-2.05c0-2.3 1.4-3.55 3.45-3.55.95 0 1.75.07 1.99.1v2.3h-1.37c-1.08 0-1.29.51-1.29 1.26v1.65h2.58l-.34 2.65h-2.24v6.4c4.35-.75 7.65-4.5 7.65-9.05z"></path></svg>
+                <span>business@hustlinkad.com</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-br from-gray-200 to-gray-400 py-8 px-6 flex flex-col md:flex-row justify-between items-start mt-8">
+        <div>
+            <div class="text-2xl font-bold mb-2">Hustlinkad</div>
+            <div class="text-xs text-gray-700">Providing quality clothes, carefully chosen to keep you looking sharp and confident</div>
+        </div>
+        <div class="mt-6 md:mt-0">
+            <div class="text-lg font-semibold mb-2">Quick Links</div>
+            <ul class="text-sm text-gray-700 space-y-1">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#shop" class="hover:underline">Shop</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
